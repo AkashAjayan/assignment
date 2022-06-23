@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Student Registration Form</title>
+<link rel="stylesheet" 
+href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+integrity=
+"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+crossorigin="anonymous">    
+          
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+ 
+<body>
+    <form action="/index.html">
+<h3>STUDENT REGISTRATION FORM</h3>
+
+ 
+<table align="center" cellpadding = "10">
+ 
+<!----- First Name ---------------------------------------------------------->
+<tr>
+<td>FIRST NAME</td>
+<td><input type="text" name="First_Name" maxlength="30"/>
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+<!----- Last Name ---------------------------------------------------------->
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" name="Last_Name" maxlength="30"/>
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+<!----- Date Of Birth -------------------------------------------------------->
+<tr>
+<td><label for="DOB">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+</td></tr>
+
+
+ 
+<!----- Gender ----------------------------------------------------------->
+<tr>
+<td>GENDER</td>
+<td>
+Male <input type="radio" name="Gender" value="Male" />
+Female <input type="radio" name="Gender" value="Female" />
+</td>
+</tr>
+ <!-------class----------------------------------------------------------->
+<tr><td>
+ <label for="class">CHOOSE THE CLASS:</label>
+
+<select name="class" id="class">
+  <option value="I">I</option>
+  <option value="2">II</option>
+  <option value="3">III</option>
+  <option value="4">IV</option>
+  <option value="5">V</option>
+  <option value="6">VI</option>
+  <option value="7">VII</option>
+  <option value="8">VIII</option>
+  <option value="9">IX</option>
+  <option value="10">X</option>
+  <option value="11">XI</option>
+  <option value="12">XII</option>
+</select>
+</td>
+<!----- division---------------------------------------------------------->
+
+    <td>
+        <label for="division">DIVISION:</label>
+  <select name="div" id="div">
+    <option value="a">A</option>
+    <option value="b">B</option>
+    <option value="c">C</option>
+    
+  </select>
+    </td>
+</tr>
+<!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+ 
+</form>
+ 
+</body>
+</html>
